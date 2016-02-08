@@ -18,9 +18,15 @@ void ABasicCity::showObjectInformation() {
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, cityBuilds[i]->name);
 		
 	}*/
+<<<<<<< HEAD
 	/*for (auto Iter(cityBuilds.CreateIterator()); Iter; Iter++) {
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, (*Iter)->name);
 	}*/
+=======
+	for (auto Iter(cityBuilds.CreateIterator()); Iter; Iter++) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, (*Iter)->name);
+	}
+>>>>>>> hotfix
 	
 	
 }

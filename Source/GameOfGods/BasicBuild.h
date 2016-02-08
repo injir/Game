@@ -23,5 +23,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	FString name;
 	
+<<<<<<< HEAD
+=======
+
+>>>>>>> hotfix
 	
 };
