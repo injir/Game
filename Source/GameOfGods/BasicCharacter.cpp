@@ -10,10 +10,7 @@ ABasicCharacter::ABasicCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	calculateStartStats();
-<<<<<<< HEAD
-=======
 	calculateHealth();
->>>>>>> hotfix
 
 }
 void ABasicCharacter::showObjectInformation() {
@@ -54,10 +51,7 @@ void ABasicCharacter::calculateStartStats() {
 	strength = randomStrength;
 	agility = randomAgility;
 	intelligence = randomIntelegence;
-<<<<<<< HEAD
-=======
 }
-void  ABasicCharacter::calculateHealth() {
-	health = ((float)strength * 10.0) + 100.0;
->>>>>>> hotfix
+void ABasicCharacter::calculateHealth() {
+	health = (strength * 13) + 100;
 }

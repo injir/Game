@@ -22,42 +22,22 @@ public:
 	virtual void showObjectInformation() override;
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
-<<<<<<< HEAD
-protected:
-	float health;
-	float experience;
-	int32 strength;
-	int32 agility;
-	int32 intelligence;
-=======
-
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float health;
-
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	float experience;
-
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	int32 strength;
-
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	int32 agility;
-
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	int32 intelligence;
-
->>>>>>> hotfix
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere)
 	int32 StatsPoint = 30;
 	void calculateStartStats();
 	void calculateHealth();
 
 
 	
-<<<<<<< HEAD
-=======
-
-
-	
->>>>>>> hotfix
 	
 };
